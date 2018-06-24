@@ -68,7 +68,7 @@ class AddEventTest(unittest.TestCase):
         result = r.json()
         self.assertEqual(result['status'], 200)
         self.assertEqual(result['message'], 'add event success')
-        
+
 
 
     def test_add_event_all_null(self):

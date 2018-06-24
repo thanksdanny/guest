@@ -15,7 +15,7 @@ urlpatterns = [
     # ex : /api/user_sign/
     url(r'^user_sign/', views_if.user_sign, name='user_sign'),
     # ex : /api/sec_get_event_list/
-    url(r'^sec_get_event_list/', view_if_sec, name='get_event_list')
+    # url(r'^sec_get_event_list/', view_if_sec, name='get_event_list')
 ]
 
 
